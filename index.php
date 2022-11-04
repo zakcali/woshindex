@@ -16,6 +16,6 @@ echo ('sum of times cited='.$citations['timesCited'].'<br/>');
 echo ('publications in wos='.$citations['numPublicationsInWosCc'].'<br/>');
 foreach( array_reverse ($citations['citationsPerYear'], true) as $year=>$citation) {
 	if($citation !== '0' )
-		echo ($citation.' citations in year '.$year.'<br/>');
+		echo ($citation.' citation(s) in year '.$year.'<br/>');
     }
 ?>
