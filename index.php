@@ -1,6 +1,6 @@
 <?php
-// woshindex V1.3
-$preText="https://www.webofscience.com/wos/api/proxy/wos-researcher/stats/individual/";
+// woshindex V1.4
+$preText="https://publons.com/wos-op/api/stats/individual/";
 $rid="AAJ-5802-2021";
 $postText="/";
 $url=$preText.$rid.$postText;
